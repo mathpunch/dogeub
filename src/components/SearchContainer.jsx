@@ -101,7 +101,7 @@ export default function SearchContainer({ logo = true, cls, nav = true }) {
     };
   }, []);
 
-  const placeholder = `Search ${options.engineName || 'Google'} or type URL`;
+  const placeholder = `Search ${options.engineName || 'Google'} Or Type URL`;
   const iconSrc =
     options.engineIcon === undefined
       ? 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Google_Favicon_2025.svg/120px-Google_Favicon_2025.svg.png'
